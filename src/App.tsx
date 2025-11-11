@@ -1,10 +1,10 @@
-
+﻿
 
 
 import React, { useState, useCallback, DragEvent } from 'react';
 import { transferirRoupa } from './services/geminiService';
 
-// --- Ícones SVG --- //
+// --- Ãcones SVG --- //
 const IconeUpload: React.FC = () => (
   <svg className="w-10 h-10 mb-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
@@ -108,7 +108,7 @@ const ImagemGerada: React.FC<ImagemGeradaProps> = ({ urlImagem, carregando }) =>
 
   return (
     <div className="w-full h-full min-h-[30rem] rounded-lg bg-slate-800 border-2 border-dashed border-slate-600 flex items-center justify-center">
-      <p className="text-slate-500 text-center">Sua imagem gerada aparecerá aqui.</p>
+      <p className="text-slate-500 text-center">Sua imagem gerada aparecerÃ¡ aqui.</p>
     </div>
   );
 };
@@ -192,7 +192,7 @@ const App: React.FC = () => {
           <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-600">
             LOOKSWAP
           </h1>
-          <p className="mt-2 text-lg text-slate-400">Transfira roupas de uma imagem para outra com um único clique.</p>
+          <p className="mt-2 text-lg text-slate-400">Transfira roupas de uma imagem para outra com um Ãºnico clique.</p>
         </header>
 
         <main className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
@@ -207,7 +207,7 @@ const App: React.FC = () => {
               <UploaderImagem onImagemSelecionada={handleSelecaoPessoa} previewImagem={previewPessoa} />
             </div>
              <div className="space-y-3">
-              <h2 className="text-2xl font-semibold text-slate-300">3. Escolher Proporção</h2>
+              <h2 className="text-2xl font-semibold text-slate-300">3. Escolher ProporÃ§Ã£o</h2>
               <div className="flex space-x-4">
                 <button
                   onClick={() => setAspectRatio('9:16')}
@@ -263,7 +263,7 @@ const App: React.FC = () => {
             </div>
           </div>
 
-          {/* Coluna de Saída */}
+          {/* Coluna de SaÃ­da */}
           <div className="flex flex-col space-y-4">
             <div>
               <h2 className="text-2xl font-semibold mb-3 text-slate-300">4. Resultado</h2>
@@ -288,7 +288,7 @@ const App: React.FC = () => {
         </main>
 
         <footer className="text-center mt-12 text-slate-500">
-          <p>Desenvolvido por Marcos Melo Inc.</p>
+          <p>Desenvolvido por Marcos Melo Inc 2025.</p>
         </footer>
       </div>
     </div>
