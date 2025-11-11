@@ -1,0 +1,8 @@
+
+
+
+
+{
+  "name": "LOOKSWAP",
+  "description": "An application that transfers clothing from a model's image onto a person in another image using Gemini 2.5 Flash Image. Upload a clothing image and a person image to generate a virtual try-on."
+}
