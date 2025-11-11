@@ -1,14 +1,9 @@
 
 
 
-# Este arquivo informa à Netlify como construir e publicar seu site.
-# Ele define onde estão os arquivos do site (publish) e onde estão
-# as funções de backend (functions).
-
 [build]
-  # O diretório que a Netlify deve publicar. Como seu index.html está na raiz, usamos ".".
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
 
 [functions]
-  # O diretório onde a Netlify encontrará o código do seu "assistente" seguro.
   directory = "netlify/functions"
